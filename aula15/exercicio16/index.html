@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <title>Tabuada</title>
+</head>
+<style>
+#caixa{
+    width: 60%;
+    height: 500px;
+    background-color: blanchedalmond;
+    margin: 10px auto;
+
+}
+input{
+    width: 100px;
+    height: 20px;
+    margin-bottom: 50px;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.center{
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 40%;
+    height: auto;
+    border: 1px solid black;
+}
+</style>
+<body>
+    <div id="caixa" class="flex">
+        <label for="txt">DIGITE UM NÚMERO</label>
+        <input type="text" name="txt" id="txt" value=4 style="width: 200px; margin-top: 20px">
+    </label>
+        <input type="button" id="btn" class="btn" value="Calcular">
+        <div id="resposta"class="center flex">
+            
+        </div>
+
+    </div>
+</body>
+</html>

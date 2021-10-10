@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 5 - Entrada e saida de dados</title>
+</head>
+<script>
+
+    // alert("Olá Mundo");
+
+    // prompt("Digite alguma coisa");
+
+    // confirm("Clique em um botão");
+
+    // var nome = prompt("Digite seu nome:");
+    // var cor = prompt("Qual sua cor favorita " + nome + "?");
+
+    // document.write("Nome:" + nome + "<br>");
+    // document.write(" A cor favorita do " + nome+ (" é ") + cor)
+    
+    // var verdFalso = confirm("Clique no botão");
+    // if (verdFalso){
+    //     console.log("Você clicou no Ok");
+    //     document.write("Você clicou em OK");
+    // }
+    // else{
+    //     console.log("Você clicou no cancelar");
+    // }
+    
+    var opcao = prompt("Escolha 1 ou 2 para continuar")
+
+    switch(opcao){
+        case '1':
+                var pergunta = confirm("Você pretende continuar?");
+                if (pergunta){
+                    alert("Você ira evoluir!");
+                }
+                else{
+                    alert ("Não gostaria nem de tentar, poxa.")
+                }
+        break;
+        case "2":
+                var pergunta = confirm("Você é casado?");
+                if(pergunta){
+                    var conj = prompt("Qual o nome do seu conjuge?");
+                    alert("Parabéns por ser casado com " + conj);
+                }
+                else{
+                    alert("Você encontrará alguem um dia ♥");
+                }
+        break;
+
+        default: alert("Essa opção não existe.");
+    }
+
+
+</script>
+<body>
+    
+</body>
+</html>

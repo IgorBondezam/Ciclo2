@@ -1,0 +1,10 @@
+1
+    var = global para todas as ocasioes, menos dentro de um função.
+    let = global porem dentro do seu escopo, não sai do seu escopo.
+    const = constante, nunca pode mudar.
+
+2
+    Não, dá para chamar uma função sem parâmetro.
+
+3
+    C - <script src="NomeDoArquivo.js></script>

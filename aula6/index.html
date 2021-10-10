@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 6 - Variáveis e funções</title>
+</head>
+<script>
+    // var qualquer; // var global
+    // let qq = "variavel let"; // var global
+    // const valorConstante = "100" // var global
+    // if(true){
+    //     console.log(valorConstante);
+    //     var dentroDoIf = "Estou dentro do If"; // var global
+    //     let dentroDoIfLet = "Estou dentro do if sou um let"; // n é mais global, portanto ela só identifica no escopo dela
+        
+    // }
+    //  valorConstante = 1
+    // console.log(valorConstante);
+
+
+
+
+    function soma(){
+        valor = console.log(1+3);
+    }
+    //soma()
+
+    function concatenarNome(){
+        var nome = "Marcelo" // na função o var fica só no escopo da var
+        var sobrenome = " Da Silva";
+        alert(nome + sobrenome);
+    }
+    //concatenarNome(); 
+
+    function novaConcatenarNome(nome, sobrenome){
+        document.write( nome +" " + sobrenome);
+    }
+    novaConcatenarNome("Marcelo", " Da Silva");
+
+    let semNome = function(){
+        alert("Estou em uma função anônima");
+    }
+    // semNome();
+
+    let funComPar = function(idade, idadePar){
+        if (idade > idadePar){
+            alert("Você tem idade maior que " + idadePar);
+        }
+        else{
+            alert("Você tem idade menor que " + idadePar);
+
+        }
+    }
+    
+    funComPar(20, 18);
+    funComPar(17, 18);
+    
+
+</script>
+
+
+
+<body>
+    
+</body>
+</html>
