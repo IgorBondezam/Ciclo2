@@ -1,4 +1,4 @@
- window.onload = function(){
+function identificadorDeCep(){
 
     const cep_ = document.querySelector("#cep");
     const bairro_ = document.querySelector("#bairro");
@@ -40,3 +40,4 @@
     })
 
 }
+export{identificadorDeCep};

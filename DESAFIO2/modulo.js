@@ -1,4 +1,3 @@
-import {dadosCep,resultadoPesquisa} from './script.js';
+import {identificadorDeCep} from './script.js';
 
-    dadosCep();
-    resultadoPesquisa();
+    identificadorDeCep();
